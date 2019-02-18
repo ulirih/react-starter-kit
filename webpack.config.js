@@ -2,6 +2,7 @@ const path = require('path');
 const htmlWebpackPlugin = require("html-webpack-plugin");
 const webpack = require("webpack");
 const extractTextPlugin = require('extract-text-webpack-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 
 module.exports = {
@@ -51,6 +52,7 @@ module.exports = {
             template: "./src/index.html"
         }),
         new webpack.ContextReplacementPlugin(/moment[/\\]locale$/, /ru/),
-        new extractTextPlugin('style.css')
+        new extractTextPlugin('style.css'),
+        new BundleAnalyzerPlugin()
     ]
 };
