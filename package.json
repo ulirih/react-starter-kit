@@ -15,7 +15,8 @@
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
     "react": "^16.8.2",
-    "react-dom": "^16.8.2"
+    "react-dom": "^16.8.2",
+    "react-ioc": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.3.3",
@@ -25,6 +26,7 @@
     "@types/moment": "^2.13.0",
     "@types/node": "^11.9.4",
     "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^1.0.1",
     "css-loader": "^2.1.0",
     "extract-text-webpack-plugin": "v4.0.0-alpha.0",
     "html-webpack-plugin": "^3.2.0",
@@ -33,7 +35,7 @@
     "source-map-loader": "^0.2.4",
     "style-loader": "^0.23.1",
     "ts-loader": "^5.3.3",
-    "typescript": "^3.3.3",
+    "typescript": "3.2.2",
     "webpack": "^4.29.4",
     "webpack-bundle-analyzer": "^3.0.4",
     "webpack-cli": "^3.2.3",
